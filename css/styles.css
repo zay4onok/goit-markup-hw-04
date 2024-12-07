@@ -381,7 +381,8 @@ p {
   overflow: hidden;
 }
 
-.portfolio__card-content:hover .portfolio__card-content-text {
+.portfolio__card-content:hover .portfolio__card-content-text
+.portfolio__card-content:focus .portfolio__card-content-text {
   transform: translateY(0);
 }
 
