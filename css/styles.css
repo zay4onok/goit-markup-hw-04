@@ -151,8 +151,11 @@ p {
 /* hero */
 
 .hero {
+  background: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
+    url(../images/hero-bg.jpg) no-repeat center / cover;
   background-color: var(--gray);
   padding: 188px 0;
+  max-width: 1440px;
 }
 
 .hero__title {
