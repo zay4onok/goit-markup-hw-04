@@ -491,6 +491,21 @@ p {
   padding: 100px 0;
 }
 
+.footer__inner {
+  display: flex;
+  align-items: baseline;
+}
+
+.footer__info {
+  margin-right: 120px;
+}
+
+.social-media__text {
+  font-weight: 500;
+  color: var(--white);
+  margin-bottom: 16px;
+}
+
 .footer .logo {
   color: #f4f4fd;
   display: inline-block;
